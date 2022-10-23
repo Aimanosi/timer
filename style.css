@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Red Hat Text", sans-serif;
+  background-image: linear-gradient(hsl(235, 16%, 14%), hsl(268, 21%, 14%));
+}
+.lauching {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.text-time {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.image-icons {
+  position: relative;
+}
+.links {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  width: 7rem;
+  font-size: 5rem;
+  padding: 1rem;
+  margin: 5rem 1rem 0;
+  color: hsl(345, 95%, 68%);
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 5px;
+}
+
+.expired {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 50rem;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: hsl(345, 95%, 68%);
+}
+h5 {
+  color: hsl(237, 18%, 59%);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+#pinterest,
+#facebook,
+#instagram {
+  margin: 0 10px;
+  color: hsl(345, 95%, 68%);
+}
+#pinterest:hover {
+  background-color: hsl(345, 95%, 68%);
+}
+#facebook:hover {
+  background-color: hsl(345, 95%, 68%);
+}
+#instagram:hover {
+  background-color: hsl(345, 95%, 68%);
+}
+
+@media (max-width: 768px) {
+  #image {
+    height: 20rem;
+  }
+  .day,
+  .hour,
+  .minute,
+  .second {
+    width: 2.5rem;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    margin: 5rem 10px 0;
+    color: hsl(345, 95%, 68%);
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 5px;
+  }
+  .image-icons {
+    position: relative;
+  }
+  .expired {
+    width: 20rem;
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 10px;
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .img {
+    height: 10rem;
+    width: 100%;
+  }
+  .image-icons {
+    position: relative;
+    margin-top: 20rem;
+  }
+  .links {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+  h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+  #facebook,
+  #pinterest,
+  #instagram {
+    width: 19px;
+    margin: 0 7px;
+  }
+}
